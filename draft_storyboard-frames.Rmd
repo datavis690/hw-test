@@ -12,37 +12,39 @@ library(flexdashboard) # always
 
 ## Intro {.sidebar}
 
-Preparing the dashboard based on the instructions given at @magallanes_reyes_data_2022, and @aden-buie_flexdashboard_2023.
+Preparing the dashboard based on the instructions given at @magallanes_reyes_data_2022, and @aden-buie_flexdashboard_2026.
 
 
 
-### I know this is not nice, but wait till I finish the course
+### I know this is not nice, but wait till I finish the course (Bar Plot)
 
 
 ```{r}
 ## for del1Draft.rds
-#link1=""
-readRDS()
+link1="https://github.com/datavis690/hw-test/raw/main/del1Draft.rds"
+readRDS(url(link1))
 ```
 
 
 
-### I am doing my best but still much to learn
+### I am doing my best but still much to learn (Histogram)
 
 ```{r}
 ## for del2Draft.rds
-#link2=""
-readRDS()
+link2="https://github.com/datavis690/hw-test/raw/main/del2Draft.rds"
+readRDS(url(link2))
 ```
 
 
-### This might be the worst plot, but...
+### This might be the worst plot, but... (Scatterplot)
 
 ```{r}
 ## for del3Draft.rds
-#link3=""
-readRDS()
+link3="https://github.com/datavis690/hw-test/raw/main/del3Draft.rds"
+readRDS(url(link3))
 ```
 
 
 ### References
+
+<div id="refs"></div>
